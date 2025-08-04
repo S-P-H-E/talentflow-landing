@@ -6,8 +6,6 @@ import { useState } from "react";
 import { PulseLoader } from "react-spinners";
 import { useFeatureFlagVariantKey } from 'posthog-js/react'
 
-
-
 export default function Home() {
   const [loading, setLoading] = useState(false)
   const variant = useFeatureFlagVariantKey('waitlist-header-conversion')
