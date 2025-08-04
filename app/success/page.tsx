@@ -10,9 +10,9 @@ export default function Success() {
           <div className="text-green-600 text-5xl mb-4 w-fit mx-auto">
           <FaCheck />
           </div>
-          <h2 className="text-2xl font-semibold text-green-800 mb-2">You're In!</h2>
+          <h2 className="text-2xl font-semibold text-green-800 mb-2">You&apos;re In!</h2>
           <p className="text-green-700 mb-6">
-            Thanks for joining our waitlist! We'll notify you as soon as early access is available.
+            Thanks for joining our waitlist! We&apos;ll notify you as soon as early access is available.
           </p>
           <Link 
             href="/"
