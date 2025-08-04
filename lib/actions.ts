@@ -14,11 +14,18 @@ export default async function addToWaitlist(formData: FormData){
         })
 
         console.log("Waitlist submitted:", email)
-        
-        // Redirect to success page after successful submission
-        redirect("/success")
-    } catch (error) {
+    } catch (error: any) {
         console.error("Error adding to waitlist:", error)
-        throw error
+        
+        // Check if it's a unique constraint violation (duplicate email)
+        if (error.code === 'P2002' && error.meta?.target?.includes('email')) {
+            redirect("/error")
+        }
+        
+        // For other database errors, redirect to error page
+        redirect("/error")
     }
+    
+    // If we reach here, the email was successfully added
+    redirect("/success")
 }

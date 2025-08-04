@@ -17,6 +17,6 @@ model waitlist {
   id        String   @id @default(uuid())
   createdAt DateTime @default(now())
   priority  Int      @default(autoincrement())
-  email     String   
+  email     String   @unique
 }
 
