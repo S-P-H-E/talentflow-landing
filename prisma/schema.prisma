@@ -14,8 +14,9 @@ datasource db {
 }
 
 model waitlist {
-  id        Int      @id @default(autoincrement())
+  id        String   @id @default(uuid())
   createdAt DateTime @default(now())
-  email     String   @unique
+  priority  Int      @default(autoincrement())
+  email     String   
 }
 

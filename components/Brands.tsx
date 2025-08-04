@@ -15,7 +15,7 @@ export default function Brands() {
     ]
     return (
         <div className="w-full max-w-[900px] mx-auto px-4 py-10 md:px-4 md:py-10">
-            <h1 className="text-center text-[var(--description)] font-semibold">We use the same frameworks as</h1>
+            <h1 className="text-center text-[var(--description)] text-sm font-semibold uppercase">We use the same frameworks as</h1>
             <div className="w-full py-10">
             <Marquee gradient={true} gradientColor="var(--background)">
                 <div className="flex items-center gap-12">
