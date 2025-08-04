@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { PostHogProvider } from './providers/posthog'
-
+import PostHogPageViewComponent from "@/components/post-hog/post-hog-page-view";
+import { Suspense } from "react";
 
 const inter = Inter({
   variable: "--font-inter-sans",
@@ -25,6 +26,9 @@ export default function RootLayout({
         className={`${inter.variable} antialiased`}
       >
         <PostHogProvider>
+          <Suspense fallback={null}>
+            <PostHogPageViewComponent />
+          </Suspense>
           {children}
         </PostHogProvider>
       </body>
