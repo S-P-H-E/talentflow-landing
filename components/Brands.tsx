@@ -14,7 +14,7 @@ export default function Brands() {
         "/brands/siemens.svg",
     ]
     return (
-        <div className="w-full max-w-[900px] mx-auto px-4 py-10 md:px-4 md:py-10">
+        <div className="w-full max-w-[900px] mx-auto px-4 py-10 md:px-4 md:py-10 motion-delay-700 motion-opacity-in-0 motion-translate-y-in-150">
             <h1 className="text-center text-[var(--description)] text-sm font-semibold uppercase">We use the same frameworks as</h1>
             <div className="w-full py-10">
             <Marquee gradient={true} gradientColor="var(--background)">
