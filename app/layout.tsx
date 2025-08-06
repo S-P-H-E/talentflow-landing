@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   description: "Your AI Recruiter. Create job applications and use AI to filter out bad candidates.",
   twitter: {
     card: "summary_large_image",
+  },
+  other: {
+    "google-site-verification": "BvzqaFnuOafq50fnEX99stjoxWROZ8q020jjBIEUSUE",
   }
 };
 
