@@ -11,8 +11,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Talentflow | Join the Waitlist.",
-  description: "Talentflow lets you create job applications and use AI to filter out bad candidates.",
+  title: {
+    default: "Talentflow | Join the Waitlist.",
+    template: "%s | Talentflow",
+  },
+  description: "Your AI Recruiter. Create job applications and use AI to filter out bad candidates.",
+  twitter: {
+    card: "summary_large_image",
+  }
 };
 
 export default function RootLayout({

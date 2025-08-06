@@ -1,5 +1,10 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { FaCheck } from "react-icons/fa6";
+
+export const metadata: Metadata = {
+  title: "Success"
+};
 
 export default function Success() {
   return (

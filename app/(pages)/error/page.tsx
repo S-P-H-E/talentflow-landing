@@ -1,5 +1,10 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { FaExclamationTriangle } from "react-icons/fa";
+
+export const metadata: Metadata = {
+  title: "Error"
+};
 
 export default function Error() {
   return (
