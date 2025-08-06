@@ -3,15 +3,18 @@ import Image from "next/image";
 
 export default function Brands() {
     const brands = [
+        "/brands/adidas.svg",
         "/brands/amazon.svg",
-        "/brands/openai.svg",
         "/brands/github.svg",
-        "/brands/vercel.png",
+        "/brands/mclaren.svg",
         "/brands/meta.svg",
-        "/brands/anthropic.png",
-        "/brands/coinbase.png",
-        "/brands/dell.png",
-        "/brands/siemens.svg",
+        "/brands/nike.svg",
+        "/brands/openai.svg",
+        "/brands/porsche.svg",
+        "/brands/spotify.svg",
+        "/brands/uber.svg",
+        "/brands/vercel.png",
+        "/brands/zapier.svg",
     ]
     return (
         <div className="w-full max-w-[900px] mx-auto px-4 py-10 md:px-4 md:py-10 motion-delay-700 motion-opacity-in-0 motion-translate-y-in-150">

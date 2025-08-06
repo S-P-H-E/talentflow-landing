@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Talentflow | Join the Waitlist.",
+    default: "Talentflow | Join the Waitlist",
     template: "%s | Talentflow",
   },
   description: "Your AI Recruiter. Create job applications and use AI to filter out bad candidates.",
