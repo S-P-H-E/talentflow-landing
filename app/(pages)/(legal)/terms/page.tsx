@@ -90,7 +90,8 @@ export default function Terms() {
 
         <h2 className="text-xl font-semibold mt-10">11. Contact</h2>
         <p>
-          Questions about these Terms? Contact our support team.
+          Questions about these Terms? Contact us at
+          <a href="mailto:sphe.g.personal@gmail.com" className="underline"> sphe.g.personal@gmail.com</a>.
         </p>
       </section>
     </main>

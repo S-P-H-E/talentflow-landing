@@ -84,8 +84,8 @@ export default function Policy() {
 
         <h2 className="text-xl font-semibold mt-10">Contact</h2>
         <p>
-          If you have questions about this Privacy Policy, please contact our
-          support team.
+          If you have questions about this Privacy Policy, contact us at
+          <a href="mailto:sphe.g.personal@gmail.com" className="underline"> sphe.g.personal@gmail.com</a>.
         </p>
       </section>
     </main>
