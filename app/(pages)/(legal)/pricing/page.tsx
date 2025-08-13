@@ -41,7 +41,12 @@ export default function Pricing() {
           </div>
 
           <p className="text-[var(--description)] text-xs mt-4">
-            By starting a trial, you agree to our <Link href="/terms" className="underline">Terms</Link> and <Link href="/policy" className="underline">Privacy Policy</Link>.
+            By starting a trial, you agree to our <Link href="/terms" className="underline">Terms</Link> (including our refund and billing terms) and <Link href="/policy" className="underline">Privacy Policy</Link>.
+          </p>
+          <p className="text-[var(--description)] text-xs mt-2">
+            Our order process is conducted by our online reseller Paddle.com.
+            Paddle.com is the Merchant of Record for all our orders. Paddle
+            provides all customer service inquiries and handles returns.
           </p>
         </div>
       </div>

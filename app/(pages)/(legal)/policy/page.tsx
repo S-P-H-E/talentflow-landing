@@ -49,6 +49,21 @@ export default function Policy() {
           appropriate safeguards. We do not sell personal information.
         </p>
 
+        <h2 className="text-xl font-semibold mt-10">Payments and Merchant of Record (Paddle)</h2>
+        <p>
+          We use Paddle.com as our online reseller and Merchant of Record to
+          process payments, handle tax collection and compliance, and manage
+          invoicing, fraud prevention, and buyer support. As part of a purchase,
+          necessary information (such as name, email address, billing address,
+          IP address, and transaction details) is shared with Paddle to process
+          your order and comply with legal obligations.
+        </p>
+        <p>
+          We do not store or have access to your full payment card details. For
+          more information on how Paddle handles your data, see the
+          <a href="https://www.paddle.com/legal/privacy" target="_blank" rel="noopener noreferrer" className="underline"> Paddle Privacy Policy</a>.
+        </p>
+
         <h2 className="text-xl font-semibold mt-10">Data Retention</h2>
         <p>
           We retain personal data only as long as necessary for the purposes
